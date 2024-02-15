@@ -1,0 +1,79 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+}
+
+.card {
+  width: 385px;
+  background-color: hsl(0, 0%, 12%);
+  font-family: Inter;
+  border-radius: 8px;
+}
+
+.picture, button {
+  text-align: center;
+}
+
+.profile-picture {
+  height: 90px;
+  width: 90px;
+  border-radius: 40px;
+  object-fit: cover; 
+ margin-top: 40px;
+ object-position: center;
+}
+
+.name {
+  font-size: 20px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.city {
+  font-size: 11px;
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.bio {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  font-family: inter;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  font-size: .75rem;
+  width: 305px;
+  padding: 12px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+
+button:hover, button:active {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+}
+
+.last-button {
+  margin-bottom: 40px;
+}
